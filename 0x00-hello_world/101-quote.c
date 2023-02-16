@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * Main - Entry
- * Return: 1
+ * Main - A c program that prints a line to std error
+ * Return 1 (Success)
  */
 int main(void)
 {
-	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
 	return (1);
 }
