@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 #include "main.h"
 
 /**
@@ -50,7 +49,6 @@ int _atoi(char *s)
  * @argv: array of arguments
  *
  * Return: 0 (Success), 1 (Error)
-
  */
 
 int main(int argc, char *argv[])
